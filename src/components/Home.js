@@ -6,6 +6,7 @@ import {
   Download,
   Faq,
   Footer,
+  Analytcs
 } from "../components/index.js";
 
 
@@ -19,6 +20,7 @@ function Home() {
       </header>
 
       <Features />
+      <Analytcs/>
       <Download />
       {/* <Subscribe/> */}
       <Faq />
