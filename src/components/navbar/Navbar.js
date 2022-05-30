@@ -26,18 +26,18 @@ const Navbar = () => {
       <menu>
         <ul
           className="nav-links"
-          id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
+          id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"} 
         >
-          <li>
+          <li style={{marginTop:'8px'}}>
             <a href="#Home">Home</a>
           </li>
-          <li>
+          <li style={{marginTop:'8px'}}>
             <a href="#features">Features</a>
           </li>
-          <li>
+          <li style={{marginTop:'8px'}}>
             <a href="#download">Download</a>
           </li>
-          <li>
+          <li style={{marginTop:'8px'}}>
             <a href="#faq">FAQS</a>
           </li>
           <li className="">

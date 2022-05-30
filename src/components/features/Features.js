@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BsFillBookmarkStarFill } from "react-icons/bs";
-import fishImage from "../../assets/fish2.jpg";
+import fishImage from "../../assets/fish5.jpg";
 import './Features.css';
 import Feature from './Feature';
 import { featureList } from "./data";
@@ -20,7 +20,7 @@ const Features = () => {
             <div className="u-title" data-aos="fade-up">
                 <BsFillBookmarkStarFill color="" size={30}/>
                 <h2>Fishing Industry in Sri Lanka</h2>
-                <p className="u-text-small u-text-dark">
+                <p className="u-text-small u-text-dark" style={{fontSize:"15px"}}>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Eos molestias distinctio officia libero, id in dolor nobis tenetur 
                     ipsa aspernatur omnis voluptate, minus ex dicta quidem 

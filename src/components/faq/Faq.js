@@ -18,7 +18,7 @@ const Faq = () => {
       <div className="u-title" data-aos="fade-up">
                 <MdOutlineLibraryBooks color="" size={30}/>
                 <h2>FAQS</h2>
-                <p className="u-text-small u-text-dark">
+                <p className="u-text-small u-text-dark" style={{fontSize:"15px"}}>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Eos molestias distinctio officia libero, id in dolor nobis tenetur 
                     ipsa aspernatur omnis voluptate, minus ex dicta quidem 

@@ -12,7 +12,7 @@
     text-align: center;
 }
 .features-left img {
-    width: 65%;
+    width: 100%;
 }
 .features-right {
     flex: 1;

@@ -14,9 +14,9 @@ const Feature = ({icon,heading,text}) => {
          {icon}
         </div>
       </div>
-      <div className="feature-text">
+      <div className="feature-text ml-5">
         <h3>{heading}</h3>
-        <p className="u-text-small">
+        <p className="u-text-small" style={{fontSize:"15px"}}>
           {text}
         </p>
       </div>

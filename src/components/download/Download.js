@@ -18,7 +18,7 @@ const Download = () => {
     <section id="download">
       <div className="container download" data-aos="fade-up">
         <h2>DOWNLOADS</h2>
-        <p className="u-text-small u-text-light">
+        <p className="u-text-small u-text-light" style={{fontSize:"15px"}}>
           Lorem ipsum dolor sit amet consectetur,
            adipisicing elit. Impedit expedita, minus
             rerum ducimus autem a qui cum ex explicabo? Provident, dolor repellat? Hic quas recusandae doloremque

@@ -86,38 +86,7 @@ height: 100%; // so that the content will center correctly */}
         </Card>
       </Container>
 
-      {/* <Container className='mt-5'>
-        <Row>
-            <Col lg={4} sm={12} className="text-center mt-5 p-5" >
-                <FaRegUserCircle style={{fontSize:"30px"}}/>
-            <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="Enter email" />
-    
-  </Form.Group>
-
-  <Form.Group className="mb-3" controlId="formBasicPassword">
-    <Form.Label>Password</Form.Label>
-    <Form.Control type="password" placeholder="Password" />
-  </Form.Group>
-  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
-  <Button variant="primary btn-block" type="submit">
-    Login
-  </Button>
-  <div className='text-left mt-3'>
-      <a href=""><small className='reset'>password reset </small></a>
-      <a href=""><small className='reset'>password reset </small></a>
-  </div>
-</Form>
-            </Col>
-            <Col lg={8} sm={12}>
-                <img className='w-100' src={LoginImage} alt="" />
-            </Col>
-        </Row>
-    </Container> */}
+      
     </>
   );
 };

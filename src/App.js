@@ -9,6 +9,7 @@ import "./App.css";
 import Login from "./components/Login/Login.jsx";
 import SignUp from "./components/SignUp/SignUp.jsx";
 import Login2 from "./components/Login2/Login2";
+import SingUp2 from "./components/SignUp2/SignUp2";
 
 import {
   Navbar,
@@ -34,7 +35,7 @@ function App() {
        
         <Route exact path="/" component={Home} />
         <Route path="/login" component={Login2} />
-        <Route path="/signup" component={SignUp} />
+        <Route path="/signup" component={SingUp2} />
       </Switch>
       
     </>
