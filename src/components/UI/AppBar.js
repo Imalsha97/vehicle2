@@ -14,6 +14,7 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import { GiFishEscape } from "react-icons/gi";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -177,6 +178,7 @@ export default function PrimarySearchAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
+          <GiFishEscape color="#fff" size={45} />
             Karadiya
           </Typography>
           <div className={classes.search}>

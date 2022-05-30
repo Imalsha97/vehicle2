@@ -5,6 +5,7 @@ import { AiOutlineBars } from "react-icons/ai";
 import { RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -12,8 +13,11 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
   return (
-    <nav className=" container navbar">
-      <div className="logo">
+   
+
+    
+    <nav className=" container-fluid navbar" style={{background:'#0a1930'}}>
+      <div className="logo" style={{marginLeft:'20px'}}>
         <GiFishEscape color="#fff" size={45} />
         <p className="logo-text">
           <span>K</span>aradiya
@@ -41,7 +45,7 @@ const Navbar = () => {
               LOGIN
             </Link>
           </li>
-          <li className="nav-btn">
+          <li className="nav-btn" style={{marginRight:"20px"}}>
             <Link to="/signup" className="btn btn-dark">
               SIGN UP
             </Link>
@@ -56,6 +60,7 @@ const Navbar = () => {
         )}
       </div>
     </nav>
+    
   );
 };
 

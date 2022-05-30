@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Navbar,
+   Navbar,
   Header,
   Features,
   Download,
@@ -11,11 +11,13 @@ import {
 
 
 
+
 function Home() {
   return (
     <main>
-      <header className="header-bg">
-        <Navbar />
+       {/* <Navbar /> */}
+      <header >
+       
         <Header />
       </header>
 
